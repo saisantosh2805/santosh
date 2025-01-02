@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Naviri Sai Santosh</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            page-break-after: always;
+        }
+        .container:last-child {
+            page-break-after: auto;
+        }
+        h1, h2, h3 {
+            color: #444;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 5px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .skills, .hobbies {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills span, .hobbies span {
+            background: #007BFF;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 3px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Naviri Sai Santosh</h1>
+            <div class="contact-info">
+                <p>H.NO: 16-10-13/a, 8 SRT MCH Colony, Malakpet, Hyderabad, TS - 500036</p>
+                <p>Mobile: (+91) 8096710260</p>
+                <p>Email: <a href="mailto:saisantosh2000naviri@gmail.com">saisantosh2000naviri@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://linkedin.com/in/naviri-sai-santosh" target="_blank">linkedin.com/in/naviri-sai-santosh</a></p>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2>Career Objective</h2>
+            <p>To work in a growth-stimulating environment, which provides ample opportunity to utilize and enhance my skills and be a successful professional in the field of Information Technology.</p>
+        </section>
+
+        <section class="section">
+            <h2>Summary of Skills</h2>
+            <ul>
+                <li>Detail-oriented professional with 1.8 years of experience in administrative operations and stakeholder communication.</li>
+                <li>Skilled in data management, quality assurance, and labeling processes for autonomous vehicle systems.</li>
+                <li>Proficient in crowd compute UI frameworks and Windows environments.</li>
+                <li>Seeking to enhance operational efficiency as a Learning Operations Specialist.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Professional Experience</h2>
+            <h3>QCONNECT (Sep 2021 - Feb 2022)</h3>
+            <p><strong>Role:</strong> Airtel Advisor</p>
+            <ul>
+                <li>Utilized natural language processing to provide technical support for network issues and device troubleshooting.</li>
+                <li>Maintained detailed records of customer interactions and reported common issues to improve content for the target audience.</li>
+                <li>Stayed updated on Airtel's products and effectively communicated features to customers.</li>
+                <li>Adhered to company policies and compliance standards.</li>
+                <li>Implemented strategies to enhance customer success and achieve retention targets through effective problem-solving.</li>
+            </ul>
+
+            <h3>Wipro (Mar 2022 - Nov 2023)</h3>
+            <p><strong>Role:</strong> Sr. Lidar Labeler</p>
+            <ul>
+                <li>Engaged in labeling and detecting vehicles, sign attributes, safety markers, and other critical elements for driverless cars.</li>
+                <li>Served as a project mentor, providing guidance and support.</li>
+                <li>Conducted verification tasks to rectify label errors and performed validation for the final review.</li>
+                <li>Monitored user-generated content to ensure compliance with community guidelines and platform policies.</li>
+                <li>Integrated LiDAR sensors into platforms for autonomous vehicles.</li>
+                <li>Collaborated with cross-functional teams to address complex moderation issues and update content policies as needed.</li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="container">
+        <section class="section">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>MBA (Systems)</strong>, Princeton PG College of Information Technology, 2024 (70%)</li>
+                <li><strong>BCOM (Computers)</strong>, St. Paul's Degree and PG College, 2021 (GPA: 8.07)</li>
+                <li><strong>CEC Intermediate</strong>, Pranathi Junior College, 2017 (67%)</li>
+                <li><strong>High School</strong>, Petros High School, 2015 (72%)</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Technical Skills</h2>
+            <div class="skills">
+                <span>Windows</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>MS Office</span>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Recent Project</h2>
+            <p><strong>Project Name:</strong> WAYMO</p>
+            <p><strong>Client:</strong> Google</p>
+            <p><strong>Duration:</strong> Mar 2022 - Nov 2023</p>
+            <p><strong>Role:</strong> Data Annotation Specialist (LiDAR)</p>
+            <p><strong>Tools Used:</strong> GLT, GVT, Crowd Compute UI, Google Sheets</p>
+            <p><strong>Description:</strong> This project, developed for a Google client, focused on equipping autonomous vehicles with sensors and software for safe and efficient transportation. The team labeled and detected elements such as traffic lights, stop signs, pedestrians, cyclists, and road work to run autonomous algorithms accurately.</p>
+        </section>
+
+        <section class="section">
+            <h2>Hobbies</h2>
+            <div class="hobbies">
+                <span>Watching Movies</span>
+                <span>Listening to Music</span>
+                <span>Content Creation</span>
+                <span>Video Editing</span>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Awarded an excellence certificate for outstanding performance at Wipro.</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
